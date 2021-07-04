@@ -306,7 +306,7 @@ public class DefaultYoutubeTrackDetailsLoader implements YoutubeTrackDetailsLoad
     cachedPlayerScript = null;
   }
 
-  protected static class CachedPlayerScript {
+  public static class CachedPlayerScript {
     public final String playerScriptUrl;
     public final long timestamp;
 
